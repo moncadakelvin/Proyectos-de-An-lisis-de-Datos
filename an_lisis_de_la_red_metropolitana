@@ -1,0 +1,56 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "name": "an-lisis-de-la-red-metropolitana",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/moncadakelvin/Proyectos-de-An-lisis-de-Datos/blob/main/an_lisis_de_la_red_metropolitana\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "# Librerías Necesarias para la implementación"
+      ],
+      "metadata": {
+        "id": "Y5578s40gXAj"
+      }
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "RXXsYb2_gI_X"
+      },
+      "outputs": [],
+      "source": [
+        "import pandas as pd\n",
+        "import folium\n",
+        "import plotly.express as px\n",
+        "import plotly.graph_objects as go\n",
+        "from plotly.subplots import make_subplots\n",
+        "import plotly.io as pio\n",
+        "pio.templates.default = \"plotly_white\""
+      ]
+    }
+  ]
+}
